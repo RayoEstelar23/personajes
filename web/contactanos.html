@@ -17,22 +17,24 @@ body {
 </head>
 
 <body>
-<p>Contactanos</p>
-<div id="apDiv1">
-<!-- Do not change the code! -->
-<a id="foxyform_embed_link_347082" href="http://es.foxyform.com/">foxyform</a>
-<script type="text/javascript">
-(function(d, t){
-   var g = d.createElement(t),
-       s = d.getElementsByTagName(t)[0];
-   g.src = "https://es.foxyform.com/js.php?id=347082&sec_hash=e8d68578995&width=350px";
-   s.parentNode.insertBefore(g, s);
-}(document, "script"));
-</script>
-<!-- Do not change the code! -->
+<body>
 
+<h2>Formulario de Contacto</h2>
 
+<form action="https://formspree.io/f/xqkrjdpz" method="POST">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
 
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+</form>
+
+</body>
 
 
 
